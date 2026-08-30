@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Альфа Селлер — единая платформа для управления онлайн-продажами."
+    />
+    <meta name="theme-color" content="#000000" />
+    <title>Альфа Селлер — управляй онлайн-продажами на лету</title>
+    <link rel="icon" href="./assets/alfa-mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#hero">Перейти к содержанию</a>
+
+    <div id="desktop-stage" class="desktop-stage" aria-hidden="false">
+      <main id="desktop-canvas" class="desktop-canvas">
+        <header class="desktop-header" aria-label="Главная навигация">
+          <a class="brand" href="#hero" aria-label="Альфа Селлер — на главную">
+            <img src="./assets/alfa-mark.svg" alt="" width="44" height="44" />
+          </a>
+
+          <nav class="desktop-nav" aria-label="Разделы сайта">
+            <a class="desktop-nav__link desktop-nav__link--active" href="#products">Продукты</a>
+            <a class="desktop-nav__link" href="#tariffs">Тарифы</a>
+            <a class="desktop-nav__link" href="#business">Крупному бизнесу</a>
+            <a class="desktop-nav__link" href="#cases">Кейсы</a>
+          </nav>
+
+          <a class="desktop-cta" href="#start">Начать бесплатно</a>
+        </header>
+
+        <section id="hero" class="hero" aria-labelledby="hero-title">
+          <h1 id="hero-title" class="hero__title">
+            <span>Управляй онлайн-</span>
+            <span>продажами на лету</span>
+          </h1>
+          <p class="hero__lead">
+            Продавай больше, управляй с легкостью, расширяй аудиторию с единой платформой
+            для&nbsp;управления электронной коммерцией
+          </p>
+
+          <div class="hero__visual" aria-hidden="true">
+            <img src="./assets/hero-man.png" alt="" />
+          </div>
+          <img
+            class="hero__shape"
+            src="./assets/hero-white-shape.svg"
+            alt=""
+            width="503"
+            height="120"
+          />
+        </section>
+
+        <section id="products" class="launch" aria-labelledby="launch-title">
+          <div class="launch__decor launch__decor--dark" aria-hidden="true"></div>
+          <div class="launch__decor launch__decor--light" aria-hidden="true"></div>
+          <img
+            class="launch__showcase"
+            src="./assets/phone-showcase.png"
+            alt="Пример магазина Альфа Селлер на смартфоне"
+            width="812"
+            height="890"
+          />
+
+          <div class="launch__copy">
+            <div class="pager" aria-label="Слайд 1 из 4">
+              <span class="pager__item pager__item--active"></span>
+              <span class="pager__item"></span>
+              <span class="pager__item"></span>
+              <span class="pager__item"></span>
+            </div>
+            <div class="launch__text">
+              <h2 id="launch-title">Запусти свой сайт и&nbsp;приложение за часы, а&nbsp;не месяцы</h2>
+              <p>
+                А ещё магазин в телеграме и максе — чтобы к&nbsp;тебе могли прийти все покупатели
+              </p>
+            </div>
+            <a id="start" class="launch__cta" href="#cases">Начать бесплатно</a>
+          </div>
+        </section>
+
+        <section id="business" class="freedom" aria-labelledby="freedom-title">
+          <h2 id="freedom-title" class="freedom__title">
+            <span class="freedom__title-main">Альфа Селлер придуман, чтобы дать тебе свободу от заморочек</span>
+            <span class="freedom__title-muted"> и&nbsp;сделать твой магазин правда твоим</span>
+          </h2>
+
+          <article class="image-card image-card--csv">
+            <img src="./assets/csv-card.png" alt="" width="467" height="467" />
+            <p class="sr-only">Свой магазин за один день — подтяни данные из CSV и принимай заказы.</p>
+          </article>
+          <article class="image-card image-card--bigtech">
+            <img src="./assets/bigtech-card.png" alt="" width="467" height="467" />
+            <p class="sr-only">Магазин поддерживают специалисты из бигтеха.</p>
+          </article>
+          <article class="image-card image-card--style">
+            <img src="./assets/style-card.png" alt="" width="467" height="536" />
+            <p class="sr-only">Выбирай из множества дизайнов и стилей оформления.</p>
+          </article>
+        </section>
+
+        <section id="cases" class="cases" aria-labelledby="cases-title">
+          <h2 id="cases-title" class="cases__title">
+            <span>Делаем бизнес легче</span>
+            <span>для всех, кто делает бизнес</span>
+          </h2>
+
+          <div class="business-tabs" role="tablist" aria-label="Тип бизнеса">
+            <button class="business-tab is-active" type="button" role="tab" aria-selected="true" data-tab="sellers">Селлеры</button>
+            <button class="business-tab" type="button" role="tab" aria-selected="false" data-tab="brands">Бренды</button>
+            <button class="business-tab" type="button" role="tab" aria-selected="false" data-tab="concept">Концепт-сторы</button>
+            <button class="business-tab" type="button" role="tab" aria-selected="false" data-tab="makers">Производители</button>
+            <button class="business-tab" type="button" role="tab" aria-selected="false" data-tab="food">Рестораторы</button>
+          </div>
+
+          <div class="cases__showcase" role="tabpanel" aria-live="polite">
+            <img
+              class="cases__seller-card"
+              src="./assets/seller-card.png"
+              alt="Селлер размещается в разделе Маркет"
+              width="601"
+              height="648"
+            />
+            <img
+              class="cases__market-logo"
+              src="./assets/market-logo.png"
+              alt="Маркет"
+              width="104"
+              height="104"
+            />
+            <img
+              class="cases__ozon-logo"
+              src="./assets/ozon-logo.png"
+              alt="Ozon"
+              width="112"
+              height="112"
+            />
+            <img
+              class="cases__dashboard"
+              src="./assets/dashboard-card.png"
+              alt="Каталог товаров в кабинете Альфа Селлер"
+              width="736"
+              height="672"
+            />
+            <img
+              class="cases__metric"
+              src="./assets/metric-widget.png"
+              alt="Конверсия в заказ — 12,92 процента"
+              width="384"
+              height="179"
+            />
+          </div>
+        </section>
+
+        <section id="tariffs" class="benefits-grid" aria-label="Возможности Альфа Селлер">
+          <article class="image-card image-card--cashback-wide">
+            <img src="./assets/cashback-wide.png" alt="" width="746" height="567" />
+            <p class="sr-only">Кэшбек за рекламу в VK и Яндексе — и люди, и деньги.</p>
+          </article>
+          <article class="image-card image-card--audience-red">
+            <img src="./assets/audience-red.png" alt="" width="467" height="467" />
+            <p class="sr-only">Аудитория Альфа Банка для тебя.</p>
+          </article>
+          <article class="image-card image-card--cashback-small">
+            <img src="./assets/cashback-small.png" alt="" width="467" height="467" />
+            <p class="sr-only">Кэшбек за рекламу в VK и Яндексе.</p>
+          </article>
+          <article class="audience-lime-card">
+            <img class="audience-lime-card__mark" src="./assets/alfa-a-large.svg" alt="" />
+            <p>Аудитория Альфа Банка для&nbsp;тебя. Размещайся в&nbsp;разделе Маркет — тебя увидят все.</p>
+            <div class="audience-lime-card__person" aria-hidden="true">
+              <img src="./assets/papers-man.png" alt="" />
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <main id="main-content" class="mobile-page">
+      <header class="mobile-header">
+        <a href="#mobile-hero" aria-label="Альфа Селлер — на главную">
+          <img src="./assets/alfa-mark.svg" alt="" width="36" height="36" />
+        </a>
+        <a class="mobile-header__cta" href="#mobile-start">Начать бесплатно</a>
+      </header>
+
+      <section id="mobile-hero" class="mobile-hero">
+        <h1>Управляй онлайн-<br />продажами на лету</h1>
+        <p>
+          Продавай больше и управляй электронной коммерцией с единой платформы.
+        </p>
+        <div class="mobile-hero__visual">
+          <img src="./assets/hero-man.png" alt="Мужчина показывает магазин на смартфоне" />
+          <img class="mobile-hero__shape" src="./assets/hero-white-shape.svg" alt="" />
+        </div>
+      </section>
+
+      <section class="mobile-launch">
+        <img src="./assets/phone-showcase.png" alt="Магазин Альфа Селлер на смартфоне" />
+        <div>
+          <h2>Запусти свой сайт и приложение за часы, а не месяцы</h2>
+          <p>А ещё магазин в телеграме и максе — чтобы к тебе могли прийти все покупатели.</p>
+          <a id="mobile-start" class="mobile-button" href="#mobile-cases">Начать бесплатно</a>
+        </div>
+      </section>
+
+      <section class="mobile-freedom">
+        <h2>
+          Альфа Селлер придуман, чтобы дать тебе свободу от заморочек
+          <span>и сделать твой магазин правда твоим</span>
+        </h2>
+        <div class="mobile-card-stack">
+          <img src="./assets/csv-card.png" alt="Свой магазин за один день" />
+          <img src="./assets/bigtech-card.png" alt="Поддержка специалистов из бигтеха" />
+          <img class="mobile-card-stack__style" src="./assets/style-card.png" alt="Много дизайнов и стилей оформления" />
+        </div>
+      </section>
+
+      <section id="mobile-cases" class="mobile-cases">
+        <h2>Делаем бизнес легче для всех, кто делает бизнес</h2>
+        <div class="mobile-tabs" aria-label="Тип бизнеса">
+          <span class="is-active">Селлеры</span><span>Бренды</span><span>Концепт-сторы</span>
+          <span>Производители</span><span>Рестораторы</span>
+        </div>
+        <div class="mobile-cases__art">
+          <img src="./assets/seller-card.png" alt="Размещение в Маркете" />
+          <img src="./assets/dashboard-card.png" alt="Каталог Альфа Селлер" />
+          <img src="./assets/metric-widget.png" alt="Конверсия в заказ" />
+        </div>
+      </section>
+
+      <section class="mobile-bottom-grid" aria-label="Преимущества">
+        <img src="./assets/cashback-wide.png" alt="Кэшбек за рекламу" />
+        <img src="./assets/audience-red.png" alt="Аудитория Альфа Банка" />
+        <img src="./assets/cashback-small.png" alt="Кэшбек за рекламу в VK и Яндексе" />
+        <img src="./assets/audience-lime.png" alt="Размещение в разделе Маркет" />
+      </section>
+    </main>
+
+    <script>
+      (() => {
+        const designWidth = 1920;
+        const designHeight = 7356;
+        const desktopBreakpoint = 1200;
+        const stage = document.querySelector("#desktop-stage");
+        const canvas = document.querySelector("#desktop-canvas");
+
+        const syncDesktopCanvas = () => {
+          if (!stage || !canvas || window.innerWidth < desktopBreakpoint) return;
+
+          const scale = Math.min(1, window.innerWidth / designWidth);
+          canvas.style.transform = `scale(${scale})`;
+          stage.style.height = `${Math.ceil(designHeight * scale)}px`;
+        };
+
+        const tabLabels = {
+          sellers: "Селлеры",
+          brands: "Бренды",
+          concept: "Концепт-сторы",
+          makers: "Производители",
+          food: "Рестораторы",
+        };
+
+        const tabPanel = document.querySelector(".cases__showcase");
+        const tabs = Array.from(document.querySelectorAll(".business-tab"));
+
+        tabs.forEach((tab) => {
+          tab.addEventListener("click", () => {
+            tabs.forEach((item) => {
+              const isCurrent = item === tab;
+              item.classList.toggle("is-active", isCurrent);
+              item.setAttribute("aria-selected", String(isCurrent));
+            });
+
+            if (tabPanel) {
+              const tabName = tabLabels[tab.dataset.tab || "sellers"];
+              tabPanel.setAttribute("aria-label", `Пример для категории «${tabName}»`);
+            }
+          });
+        });
+
+        const desktopLinks = Array.from(document.querySelectorAll(".desktop-nav__link"));
+
+        desktopLinks.forEach((link) => {
+          link.addEventListener("click", () => {
+            desktopLinks.forEach((item) => {
+              item.classList.toggle("desktop-nav__link--active", item === link);
+            });
+          });
+        });
+
+        syncDesktopCanvas();
+        window.addEventListener("resize", syncDesktopCanvas, { passive: true });
+        document.documentElement.classList.add("is-ready");
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="118.978" height="118.979" viewBox="0 0 118.978 118.979" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mask group" style="mix-blend-mode:overlay">
+<mask id="mask0_0_2926" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="119" height="119">
+<g id="Vector">
+<path d="M105.759 59.4892C105.759 33.9353 85.0431 13.2198 59.4892 13.2198C33.9353 13.2198 13.2198 33.9353 13.2198 59.4892C13.2198 85.0431 33.9353 105.759 59.4892 105.759V118.978C26.6342 118.978 0 92.3442 0 59.4892C0 26.6342 26.6342 0 59.4892 0C92.3442 0 118.978 26.6342 118.978 59.4892C118.978 92.3442 92.3442 118.978 59.4892 118.978V105.759C85.0431 105.759 105.759 85.0431 105.759 59.4892Z" fill="#DC200C"/>
+<path d="M66.0394 25.7211C67.4157 22.3329 71.2781 20.7019 74.6663 22.0781C78.0545 23.4544 79.6855 27.3168 78.3093 30.705L63.2267 67.8372L46.1634 60.9064C42.7752 59.5301 41.1442 55.6677 42.5204 52.2795C43.8967 48.8913 47.759 47.2603 51.1473 48.6365L55.9407 50.5835L66.0394 25.7211Z" fill="black"/>
+</g>
+</mask>
+<g mask="url(#mask0_0_2926)">
+<g id="Group 2131330355" filter="url(#filter0_f_0_2926)">
+<path id="Union" d="M185.398 39.2957L174.487 65.7825H145.668L156.579 39.2957H185.398Z" fill="white" fill-opacity="0.5"/>
+<path id="Union_2" d="M117.654 107.388C111.527 122.28 97.0165 132 80.9135 132L66.2125 132C39.7973 132 26.4823 119.232 26.4823 93.5878V77.8153C26.4823 52.1715 39.7973 39.2959 66.2125 39.2959L145.673 39.2957L117.654 107.388Z" fill="white" fill-opacity="0.5"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_0_2926" x="-13.9706" y="-1.15721" width="239.822" height="173.61" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="20.2264" result="effect1_foregroundBlur_0_2926"/>
+</filter>
+</defs>
+</svg>
